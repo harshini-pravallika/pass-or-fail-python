@@ -1,6 +1,0 @@
-list=[7,8,9,1,3,2,6,5,4]
-minvalue=list[0]
-for i in list :
-    if minvalue > i:
-         minvalue=i
-print(minvalue)
