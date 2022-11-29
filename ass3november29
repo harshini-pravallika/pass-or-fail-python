@@ -1,0 +1,10 @@
+sno=int(input("enter student roll number: "))
+sname=input("enter student name: ")
+group=input("enter your group name: ")
+sub1=int(input("enter subject1 marks: "))
+sub2=int(input("enter subject2 marks: "))
+sub3=int(input("enter subject3 marks: "))
+if sub1>=35 and sub2>=35 and sub3>=35:
+    print("pass")
+else:
+    print("fail")
