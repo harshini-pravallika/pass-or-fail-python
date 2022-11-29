@@ -1,0 +1,18 @@
+empname=input("enter employee name: ")
+empdesig=input("enter designation: ")
+basicsalary=int(input("enter salary: "))
+dailyallowance=int(input("enter daily allowance: "))
+Travellingallowance=int(input("enter travelling allowance: "))
+HouseRentalallowance=int(input("enter house rent allowance: "))
+netsalary=basicsalary+dailyallowance+Travellingallowance+HouseRentalallowance
+if netsalary>100000:
+    tax=netsalary*10/100
+if netsalary>50000:
+    tax=netsalary*10/100
+if netsalary>40000:
+    tax=netsalary*10/100
+if netsalary>20000:
+    tax=netsalary*10/100
+if netsalary<20000:
+    tax=0
+print(tax)
