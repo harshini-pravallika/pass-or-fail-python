@@ -1,0 +1,8 @@
+balance=10000
+amount=int(input(" enter amount: "))
+if amount>balance:
+    print("insufficient balance")
+else:
+    print("amount debited")
+balance=balance-amount
+print("main balance is: ",balance)
