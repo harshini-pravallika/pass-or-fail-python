@@ -1,0 +1,11 @@
+num1,num2=int(input("enter a num1: ")),int(input("\nenter a num2: "))
+num3,num4=int(input("\nenter a num3: ")),int(input("\nenter a num4: "))
+
+if num1>num2>num3>num4:
+    print("\nnum1 is big")
+elif num2>num3>num4:
+    print("\nnum2 is big")
+elif num3>num4:
+    print("\nnum3 is big")
+else:
+    print("\nnum4 is big")
