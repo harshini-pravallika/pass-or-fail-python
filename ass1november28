@@ -1,4 +1,4 @@
-pin=int(input("enter a pin: ")
+pin=int(input("enter a pin: "))
 if pin is int:
      print("continue transactions")
 if pin is not int:
