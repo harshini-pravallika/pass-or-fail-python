@@ -1,0 +1,14 @@
+billno=int(input("bill number: "))
+date=input("enter date: ")
+place=input("name of city: ")
+servicenumber=int(input("enter service number: "))
+uniqcode=int(input("enter unique code: "))
+trueofcharge=int(input("enter true of charge: "))
+paninstallment=int(input("enter paninstallment: "))
+shortfall=input("shortfall: ")
+govtsubsidy=7
+billaftersubsdy=int(input("bill: "))
+bill=bill-7
+duedate=input("date: ")
+
+print("bill: ",bill,"\ndue date: ",duedate)
