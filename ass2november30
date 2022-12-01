@@ -1,0 +1,36 @@
+milk=150
+bread=80
+books=60
+chocolate=120
+gun=300
+phno=int(input("enter phone number: "))
+name=input("enter your name: ")
+address=input("enter your address: ")
+m=int(input("enter no.of gallons of milk: "))
+br=int(input("enter no.of bread packets: "))
+bo=int(input("enter no.of books: "))
+cho=int(input("enter no.of chocolates: "))
+g=int(input("enter no.of guns: "))
+bill=(milk*m)+(bread*br)+(books*bo)+(chocolate*cho)+(gun*g)
+if bill>3000:
+    tax=(15/100)*bill
+elif bill>2000:
+    tax=(10/100)*bill
+elif bill>1000:
+    tax=(7/100)*bill
+elif bill>500:
+    tax=(5/100)*bill
+else:
+    tax=100
+bill=tax+bill    
+code=input("enter coupon code: ")
+   if bill>=3000:
+      dis=(20/100)*bill
+   elif bill>=2000:    
+      dis=(10/100)*bill
+   elif bill>=1000:
+      dis=(5/100)*bill
+   else:
+      dis=0
+bill=bill-dis
+print("customer phone.no: ",phno,"\ncustomer name: ",name,"\ntax: ",tax,"address: ",address,"discount: ",dis,"\nbill: ",bill)
