@@ -1,0 +1,32 @@
+#1
+def vote(age):
+    if age>=18:
+        print("yes")
+    else:
+        print("no")
+age=int(input("enter your age: "))
+vote(age)
+
+
+#2
+def vote(age):
+    if age>=18:
+        return "yes"
+    else:
+        return "no"
+age=int(input("enter your age: "))
+print(vote(age))
+
+
+
+#3
+def vote(age):
+    if age>=18:
+        return True
+    else:
+        return False
+age=int(input("enter your age: "))
+if(vote(age)):
+    print("yes")
+else:
+    print("no")
